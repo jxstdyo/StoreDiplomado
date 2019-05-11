@@ -1,0 +1,130 @@
+{
+  "error": 0,
+  "items": [
+    {
+      "id" : 1,
+      "marca" : "B&O PLAY by Bang & Olufsen",
+	  "name" : "Beoplay H9, gris arcilla",
+      "precio" : 10793.51,
+      "imagen" : "https://images-na.ssl-images-amazon.com/images/I/41Y14-9DkhL.jpg",
+      "descripcion" : "B&O PLAY by Bang & Olufsen Auriculares inalámbricos con cancelación de ruido Beoplay H9 gris arcilla",
+      "imagenes" : [
+		"https://images-na.ssl-images-amazon.com/images/I/41Y14-9DkhL.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/51%2BPXsi7-gL._SL1106_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/61Gp3ZPDXNL._SL1088_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/71W3rRr2exL._SL1500_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/71P6aZ4g5UL._SL1500_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/91GV5nuo5RL._SL1500_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/91174dFbJdL._SL1500_.jpg"
+	  ],
+      "existencias" : 10
+    },
+	{
+      "id" : 2,
+      "marca" : "B&O PLAY by Bang & Olufsen ",
+	  "name" : "Beoplay H4, Carbón vegetal, Gris",
+      "precio" : 4693.98,
+      "imagen" : "https://images-na.ssl-images-amazon.com/images/I/61jAxtbJJtL._SL1287_.jpg",
+      "descripcion" : "B&O PLAY H4 Diadema Audífono Wired/Bluetooth Carbón vegetal, Gris Audífono para móvil - Audífonos (Audífono, Diadema, Carbón vegetal, Gris, Digital, Wired/Bluetooth, Bluetooth / 3.5mm)",
+      "imagenes" : [
+		"https://images-na.ssl-images-amazon.com/images/I/61QNUhJYcYL._SL1500_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/61T092sxdtL._SL1321_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/71aHGFIOURL._SL1500_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/61gwloj2W6L._SL1470_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/61FiScTBp3L._SL1244_.jpg"
+	  ],
+      "existencias" : 8
+    },
+	{
+      "id" : 3,
+      "marca" : "B&O PLAY by Bang & Olufsen ",
+	  "name" : "Beoplay H6, Grafito",
+      "precio" : 8463.92,
+      "imagen" : "https://images-na.ssl-images-amazon.com/images/I/81Z4eOVADVL._SL1500_.jpg",
+      "descripcion" : "B&O PLAY H4 Diadema Audífono Wired/Bluetooth Carbón vegetal, Gris Audífono para móvil - Audífonos (Audífono, Diadema, Carbón vegetal, Gris, Digital, Wired/Bluetooth, Bluetooth / 3.5mm)",
+      "imagenes" : [
+		"https://images-na.ssl-images-amazon.com/images/I/81Z4eOVADVL._SL1500_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/81I83cNUnAL._SL1500_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/71MHkAQMsKL._SL1500_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/81X3VgDlLoL._SL1500_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/91hIHi%2BCtLL._SL1500_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/91HM6d2hm%2BL._SL1500_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/81AdXb3WI9L._SL1500_.jpg"
+	  ],
+      "existencias" : 9
+    },
+	{
+      "id" : 4,
+      "marca" : "Audio-Technica",
+	  "name" : "ATH-M50X, Negro",
+      "precio" : 3090.00,
+      "imagen" : "https://images-na.ssl-images-amazon.com/images/I/81Hajq6vPiL._SL1500_.jpg",
+      "descripcion" : "Audio-Technica, Audifonos Profesionales ATH-M50X, Negro",
+      "imagenes" : [
+		"https://images-na.ssl-images-amazon.com/images/I/81Hajq6vPiL._SL1500_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/81%2BPaJnjIWL._SL1500_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/812Hiv0R%2BZL._SL1500_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/91ftCQBUK2L._SL1500_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/A1T-CJP0daL._SL1500_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/71IOTeXsJRL._SL1500_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/815FG9vOdiL._SL1500_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/81JgVJ82DvL._SL1500_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/A1teiQSB7OL._SL1500_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/91jW30k9TxL._SL1500_.jpg"
+	  ],
+      "existencias" : 5
+    },
+	{
+      "id" : 5,
+      "marca" : "Sennheiser ",
+	  "name" : "Sennheiser Momentum 2.0",
+      "precio" : 4678.51,
+      "imagen" : "https://images-na.ssl-images-amazon.com/images/I/71DCOtjc-gL._SL1500_.jpg",
+      "descripcion" : "Sennheiser Momentum 2.0 Audífonos supraaurales de diadema para dispositivos Apple, marfil. Modelo cerrado-atrás supraaural, aísla el ruido ambiental para maximizar el disfrute musical con un diseño compacto y ligero",
+      "imagenes" : [
+		"https://images-na.ssl-images-amazon.com/images/I/71DCOtjc-gL._SL1500_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/714b-Kqv1gL._SL1500_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/716EwxYk5jL._SL1500_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/31xHF5TgTML.jpg"
+	  ],
+      "existencias" : 9
+    },
+	{
+      "id" : 6,
+      "marca" : "Audio-Technica ",
+	  "name" : "ATH-M50XRD",
+      "precio" : 3480.00,
+      "imagen" : "https://images-na.ssl-images-amazon.com/images/I/81387yNJp9L._SL1500_.jpg",
+      "descripcion" : "Audio Technica ATH-M50XRD Auriculares Profesionales, color Rojo, Tiene drivers de gran apertura, audífonos con aislamiento acústico y construcción robusta",
+      "imagenes" : [
+		"https://images-na.ssl-images-amazon.com/images/I/81387yNJp9L._SL1500_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/81UKKHkW8wL._SL1500_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/81KiDpz5HRL._SL1500_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/81dJMdxpkhL._SL1500_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/813AFtSHZlL._SL1500_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/71TwBJiSWqL._SL1500_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/81kyC16rPAL._SL1500_.jpg"
+	  ],
+      "existencias" : 11
+    },
+	{
+      "id" : 7,
+      "marca" : "Sennheiser",
+	  "name" : "HD 4.40 BT, Bluetooth, Negro",
+      "precio" : 3202.64,
+      "imagen" : "https://images-na.ssl-images-amazon.com/images/I/616zfAHAGHL._SL1000_.jpg",
+      "descripcion" : "Sennheiser, Audifónos Inalámbricos con Micrófono Integrado HD 4.40 BT, Bluetooth, Negro, Tecnología de conectividad: inalámbrica, NFC para emparejamiento rápido con dispositivos compatibles, Micrófono integrado para uso con auriculares",
+      "imagenes" : [
+		"https://images-na.ssl-images-amazon.com/images/I/616zfAHAGHL._SL1000_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/31dQiYhB6jL.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/71ojbAO7-uL._SL1000_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/71DFtsy4FxL._SL1000_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/61x4h2BLP-L._SL1000_.jpg",
+		"https://images-na.ssl-images-amazon.com/images/I/51kqVzF8lzL.jpg"
+      ],
+      "existencias" : 11
+    }
+  
+  ]
+   
+}

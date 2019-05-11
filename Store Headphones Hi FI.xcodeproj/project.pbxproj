@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8931FBC0224C6E4100EAC216 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8931FBBF224C6E4100EAC216 /* AppDelegate.swift */; };
+		8931FBC5224C6E4100EAC216 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8931FBC3224C6E4100EAC216 /* Main.storyboard */; };
+		8931FBCA224C6E4300EAC216 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8931FBC8224C6E4300EAC216 /* LaunchScreen.storyboard */; };
+		8931FBD2224C6EE300EAC216 /* MMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8931FBD1224C6EE300EAC216 /* MMainViewController.swift */; };
+		8931FBD4224C6F2900EAC216 /* MMainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8931FBD3224C6F2900EAC216 /* MMainViewCell.swift */; };
+		8934501322542AA800089346 /* MCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8934501222542AA800089346 /* MCollectionViewController.swift */; };
+		8934501522542B1800089346 /* MCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8934501422542B1800089346 /* MCollectionViewCell.swift */; };
+		893AE7B9225C1C8D0074CA94 /* imagen.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 893AE7B8225C1C8D0074CA94 /* imagen.xcassets */; };
+		8951898E225D8DFE00E346C1 /* BadgeBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8951898D225D8DFE00E346C1 /* BadgeBarButtonItem.swift */; };
+		89518994225D97F800E346C1 /* CheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89518993225D97F800E346C1 /* CheckViewController.swift */; };
+		899DC61E2256A18300099533 /* Boton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899DC61D2256A18300099533 /* Boton.swift */; };
+		899DC6202256B61A00099533 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899DC61F2256B61A00099533 /* Structs.swift */; };
+		899DC6222256B71E00099533 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 899DC6212256B71E00099533 /* data.json */; };
+		89C79E692252F8FC0035C5AB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C79E682252F8FC0035C5AB /* Extensions.swift */; };
+		89CB2EE822737D9D0032DB2E /* PayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CB2EE722737D9D0032DB2E /* PayViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C9216751A7E68F7C871668E /* Pods_Store_Headphones_Hi_FI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Store_Headphones_Hi_FI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8931FBBC224C6E4100EAC216 /* Store Headphones Hi FI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Store Headphones Hi FI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8931FBBF224C6E4100EAC216 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8931FBC4224C6E4100EAC216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8931FBC9224C6E4300EAC216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8931FBCB224C6E4300EAC216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8931FBD1224C6EE300EAC216 /* MMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMainViewController.swift; sourceTree = "<group>"; };
+		8931FBD3224C6F2900EAC216 /* MMainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMainViewCell.swift; sourceTree = "<group>"; };
+		8934501222542AA800089346 /* MCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCollectionViewController.swift; sourceTree = "<group>"; };
+		8934501422542B1800089346 /* MCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCollectionViewCell.swift; sourceTree = "<group>"; };
+		893AE7B8225C1C8D0074CA94 /* imagen.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = imagen.xcassets; sourceTree = "<group>"; };
+		8951898D225D8DFE00E346C1 /* BadgeBarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBarButtonItem.swift; sourceTree = "<group>"; };
+		89518993225D97F800E346C1 /* CheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckViewController.swift; sourceTree = "<group>"; };
+		899DC61D2256A18300099533 /* Boton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Boton.swift; sourceTree = "<group>"; };
+		899DC61F2256B61A00099533 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		899DC6212256B71E00099533 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		89C79E682252F8FC0035C5AB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		89CB2EE722737D9D0032DB2E /* PayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8931FBB9224C6E4100EAC216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		067E07E3E3D2FBAB01517320 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C9216751A7E68F7C871668E /* Pods_Store_Headphones_Hi_FI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8931FBB3224C6E4100EAC216 = {
+			isa = PBXGroup;
+			children = (
+				8931FBBE224C6E4100EAC216 /* Store Headphones Hi FI */,
+				8931FBBD224C6E4100EAC216 /* Products */,
+				067E07E3E3D2FBAB01517320 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8931FBBD224C6E4100EAC216 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8931FBBC224C6E4100EAC216 /* Store Headphones Hi FI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8931FBBE224C6E4100EAC216 /* Store Headphones Hi FI */ = {
+			isa = PBXGroup;
+			children = (
+				89518992225D97D800E346C1 /* ViewPay */,
+				89518991225D97A400E346C1 /* ViewMain */,
+				89518990225D978300E346C1 /* ViewDetail */,
+				8951898F225D8E2C00E346C1 /* UI */,
+				899DC6212256B71E00099533 /* data.json */,
+				8931FBBF224C6E4100EAC216 /* AppDelegate.swift */,
+				8931FBC3224C6E4100EAC216 /* Main.storyboard */,
+				8931FBC8224C6E4300EAC216 /* LaunchScreen.storyboard */,
+				8931FBCB224C6E4300EAC216 /* Info.plist */,
+				89C79E682252F8FC0035C5AB /* Extensions.swift */,
+				899DC61F2256B61A00099533 /* Structs.swift */,
+				893AE7B8225C1C8D0074CA94 /* imagen.xcassets */,
+			);
+			path = "Store Headphones Hi FI";
+			sourceTree = "<group>";
+		};
+		8951898F225D8E2C00E346C1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				899DC61D2256A18300099533 /* Boton.swift */,
+				8951898D225D8DFE00E346C1 /* BadgeBarButtonItem.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		89518990225D978300E346C1 /* ViewDetail */ = {
+			isa = PBXGroup;
+			children = (
+				8934501222542AA800089346 /* MCollectionViewController.swift */,
+				8934501422542B1800089346 /* MCollectionViewCell.swift */,
+			);
+			path = ViewDetail;
+			sourceTree = "<group>";
+		};
+		89518991225D97A400E346C1 /* ViewMain */ = {
+			isa = PBXGroup;
+			children = (
+				8931FBD1224C6EE300EAC216 /* MMainViewController.swift */,
+				8931FBD3224C6F2900EAC216 /* MMainViewCell.swift */,
+			);
+			path = ViewMain;
+			sourceTree = "<group>";
+		};
+		89518992225D97D800E346C1 /* ViewPay */ = {
+			isa = PBXGroup;
+			children = (
+				89518993225D97F800E346C1 /* CheckViewController.swift */,
+				89CB2EE722737D9D0032DB2E /* PayViewController.swift */,
+			);
+			path = ViewPay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8931FBBB224C6E4100EAC216 /* Store Headphones Hi FI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8931FBCE224C6E4300EAC216 /* Build configuration list for PBXNativeTarget "Store Headphones Hi FI" */;
+			buildPhases = (
+				9FBA4BEC9857ED8F6FA3306D /* [CP] Check Pods Manifest.lock */,
+				8931FBB8224C6E4100EAC216 /* Sources */,
+				8931FBB9224C6E4100EAC216 /* Frameworks */,
+				8931FBBA224C6E4100EAC216 /* Resources */,
+				9BC8B18562EBEA073F0CE99C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Store Headphones Hi FI";
+			productName = "Store Headphones Hi FI";
+			productReference = 8931FBBC224C6E4100EAC216 /* Store Headphones Hi FI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8931FBB4224C6E4100EAC216 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Antonyo Chavez Saucedo";
+				TargetAttributes = {
+					8931FBBB224C6E4100EAC216 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 8931FBB7224C6E4100EAC216 /* Build configuration list for PBXProject "Store Headphones Hi FI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8931FBB3224C6E4100EAC216;
+			productRefGroup = 8931FBBD224C6E4100EAC216 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8931FBBB224C6E4100EAC216 /* Store Headphones Hi FI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8931FBBA224C6E4100EAC216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893AE7B9225C1C8D0074CA94 /* imagen.xcassets in Resources */,
+				8931FBCA224C6E4300EAC216 /* LaunchScreen.storyboard in Resources */,
+				8931FBC5224C6E4100EAC216 /* Main.storyboard in Resources */,
+				899DC6222256B71E00099533 /* data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9BC8B18562EBEA073F0CE99C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+			showEnvVarsInLog = 0;
+		};
+		9FBA4BEC9857ED8F6FA3306D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8931FBB8224C6E4100EAC216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899DC6202256B61A00099533 /* Structs.swift in Sources */,
+				89518994225D97F800E346C1 /* CheckViewController.swift in Sources */,
+				8934501322542AA800089346 /* MCollectionViewController.swift in Sources */,
+				8934501522542B1800089346 /* MCollectionViewCell.swift in Sources */,
+				8931FBD4224C6F2900EAC216 /* MMainViewCell.swift in Sources */,
+				8951898E225D8DFE00E346C1 /* BadgeBarButtonItem.swift in Sources */,
+				8931FBC0224C6E4100EAC216 /* AppDelegate.swift in Sources */,
+				8931FBD2224C6EE300EAC216 /* MMainViewController.swift in Sources */,
+				89CB2EE822737D9D0032DB2E /* PayViewController.swift in Sources */,
+				899DC61E2256A18300099533 /* Boton.swift in Sources */,
+				89C79E692252F8FC0035C5AB /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8931FBC3224C6E4100EAC216 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8931FBC4224C6E4100EAC216 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8931FBC8224C6E4300EAC216 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8931FBC9224C6E4300EAC216 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8931FBCC224C6E4300EAC216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8931FBCD224C6E4300EAC216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8931FBCF224C6E4300EAC216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R58QN6V65L;
+				INFOPLIST_FILE = "Store Headphones Hi FI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antonyo.Store-Headphones-Hi-FI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8931FBD0224C6E4300EAC216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R58QN6V65L;
+				INFOPLIST_FILE = "Store Headphones Hi FI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antonyo.Store-Headphones-Hi-FI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8931FBB7224C6E4100EAC216 /* Build configuration list for PBXProject "Store Headphones Hi FI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8931FBCC224C6E4300EAC216 /* Debug */,
+				8931FBCD224C6E4300EAC216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8931FBCE224C6E4300EAC216 /* Build configuration list for PBXNativeTarget "Store Headphones Hi FI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8931FBCF224C6E4300EAC216 /* Debug */,
+				8931FBD0224C6E4300EAC216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8931FBB4224C6E4100EAC216 /* Project object */;
+}
